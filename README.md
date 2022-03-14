@@ -7,6 +7,9 @@ There are 286500 logs for 226 customers activities on the service in this datase
 
 Background
 
+The objective of this project is to predict churn for a music streaming app.
+A subset of the data has been provided to train a machine learning model on spark such that the model can be scaled to the full data sed of 12GB 
+
 Files
 
 mini_sparkify_event_data.json: The 125 MB data file
@@ -16,15 +19,12 @@ Setup
 
 This project uses Python 3 and is designed to be completed through the Jupyter Notebooks IDE. It is highly recommended that you use the Anaconda distribution to install Python, since the distribution includes all necessary Python libraries as well as Jupyter Notebooks. The following libraries are expected to be used in this project:
 
-Pyspark
+•	Pyspark
+•	NumPy
+•	pandas
+•	Matplotlib
+•	Plotly
 
-NumPy
-
-pandas
-
-Matplotlib
-
-Plotly
 
 Results
 
